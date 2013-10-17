@@ -5,10 +5,11 @@ The best project ever.
 ## Getting Started
 Install as command-line tool with: `npm install marionette-git -g`
 
-under Gaia folder:
-use `marionette-git <FILENAME>` to execute integration test with specific file.
+Under Gaia folder:
 
-use `marionette-git` to execute all integration test.
+Use `marionette-git <FILENAME>` to execute integration test with specific file.
+
+Use `marionette-git` to execute all integration test.
 
 ## Documentation
 _(Coming soon)_
