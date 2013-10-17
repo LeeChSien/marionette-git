@@ -1,4 +1,4 @@
-# marionette-git [![Build Status](https://secure.travis-ci.org/chsien/marionette-git.png?branch=master)](http://travis-ci.org/chsien/marionette-git)
+# marionette-git
 
 The best project ever.
 
