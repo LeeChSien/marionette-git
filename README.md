@@ -3,12 +3,12 @@
 The best project ever.
 
 ## Getting Started
-Install the module with: `npm install marionette-git`
+Install as command-line tool with: `npm install marionette-git -g`
 
-```javascript
-var marionette_git = require('marionette-git');
-marionette_git.awesome(); // "awesome"
-```
+under Gaia folder:
+use `marionette-git <FILENAME>` to execute integration test with specific file.
+
+use `marionette-git` to execute all integration test.
 
 ## Documentation
 _(Coming soon)_
