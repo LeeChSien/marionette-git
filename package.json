@@ -1,0 +1,46 @@
+{
+  "name": "marionette-git",
+  "description": "The best project ever.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/chsien/marionette-git",
+  "author": {
+    "name": "Jason Lee",
+    "email": "chsien@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/chsien/marionette-git.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chsien/marionette-git/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/chsien/marionette-git/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/marionette-git",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt nodeunit"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.4",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt": "~0.4.1"
+  },
+  "keywords": [],
+  "dependencies": {
+    "gitlog": "git://github.com/domharrington/node-gitlog.git",
+    "node-exec-sync": "git://github.com/jeremyfa/node-exec-sync.git"
+  },
+  "preferGlobal": "true",
+  "bin": {
+      "marionette-git" : "lib/marionette-git.js"
+  }
+
+}
